@@ -1,35 +1,36 @@
+
 body {
-    background-color: #efe241;
+    background-color: #FFFFFF;
     color: #333333;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial,Helvetica,sans-serif;
     font-size: 14px;
-   	line-height: 1.42857;
+    line-height: 1.42857;
 }
 
 #epay_testmode_message
 {
-	display: none;
+    display: none;
 }
 
 #epay_paymentinfo
 {
-	display: none;
+    display: none;
 }
 
 #epay_paymentcollection{
-	padding-right: 10px;	
+    padding-right: 10px;    
 }
 
 #epay_paymentcards_form
 {
-	margin-left: 10px;
-	margin-right: 10px;
-	min-height: 130px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 130px;
 }
 
-#epay_paymentcollection input[type="text"]
+#epay_paymentcollection input[type="tel"]
 {
-	font-family: inherit;
+    font-family: inherit;
     background-color: #FFFFFF;
     background-image: none!important;
     border: 1px solid #CCCCCC;
@@ -44,35 +45,38 @@ body {
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
     vertical-align: middle;
     width: 97%;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
-#epay_paymentcollection input[type="text"].invalid {
-	border: 1px solid red!important;
+#epay_paymentcollection input[type="tel"].invalid {
+    border: 1px solid red!important;
 }
 
-#epay_paymentcollection input[type="text"]:focus {
-	border-color: #66AFE9;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
-	outline: 0 none;
+#epay_paymentcollection input[type="tel"]:focus {
+    border-color: #66AFE9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
 }
 
 *, *:before, *:after {
     -moz-box-sizing: border-box;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #epay_paymentcollection label {
-	height: auto;
-	line-height: 1.42857;
-	width: 100%;
+    color: #555555;
     font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 4px;
+    padding-top: 4px;
+    height: auto;
+    line-height: 1.42857;
+    width: 100%;
     margin-bottom: 5px;
-	font-family: inherit!important;
+    font-family: inherit!important;
 }
 
 #epay_paymentcards_form ul li {
-    padding: 50px;
     height: auto;
     margin-top: 0;
 }
@@ -82,16 +86,16 @@ body {
 }
 
 #ctl00_MainContent_WindowUC1_ctl00_ctl00_exp_li label {
-	margin-bottom: 6px;
+    margin-bottom: 6px;
 }
 
 .epay_payment_button_light {
-	
+    
     background-image: linear-gradient(to bottom, #5CB85C 0px, #419641 100%);
     background-repeat: repeat-x;
     border-color: #3E8F3E;
-	margin: 0 0 0 10px!important;
-	width: 97%;
+    margin: 0 0 0 10px!important;
+    width: 97%;
 }
 .epay_payment_button_light {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -109,21 +113,21 @@ body {
     color: #FFFFFF;
 }
 .epay_payment_button_light, .epay_error_button {
-	-moz-user-select: none;
-	background-image: none;
-	border: 1px solid rgba(0, 0, 0, 0);
-	border-radius: 4px 4px 4px 4px;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 14px;
-	font-weight: normal;
-	line-height: 1.42857;
-	margin-bottom: 0;
-	padding: 6px 12px;
-	text-align: center;
-	vertical-align: middle;
-	white-space: nowrap;
-	height: auto;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: auto;
     width: auto;
 }
 
@@ -134,43 +138,43 @@ body {
 }
 .epay_payment_button_light:active {
     background-image: none!important;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
 }
 
 #epay_error_top, #epay_error_bottom
 {
-	display: none;
+    display: none;
 }
 
 #epay_error {
     left: auto;
     top: 100px;
-	margin: auto;
+    margin: auto;
 }
 
 #epay_error_body
 {
-	border: 1px solid rgba(0, 0, 0, 0);
-	border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
     margin-bottom: 20px;
     padding: 15px;
-	background: none;
-	background-color: #F2DEDE;
+    background: none;
+    background-color: #F2DEDE;
     border-color: #EBCCD1;
     color: #B94A48;
 }
 
 #epay_error_header
 {
-	font-family: inherit;
-	color: inherit;
-	font-weight: bold;
-	color: #B94A48;
+    font-family: inherit;
+    color: inherit;
+    font-weight: bold;
+    color: #B94A48;
 }
 
 .epay_error_button 
 {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .epay_error_button {
@@ -190,7 +194,7 @@ body {
 }
 
 .epay_error_button:hover, .epay_error_button:focus, .epay_error_button:active {
-	background-image: none!important;
+    background-image: none!important;
     background-color: #E0E0E0!important;
     border-color: #ADADAD!important;
     color: #333333!important;
@@ -198,5 +202,5 @@ body {
 .epay_error_button:active {
     background-color: #E0E0E0!important;
     border-color: #DBDBDB!important;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
 }
