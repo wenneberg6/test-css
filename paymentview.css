@@ -102,7 +102,7 @@ body {
     font-size: 18px;
     line-height: 1.33;
     padding: 10px 16px;
-    background-color: #5CB85C;
+    background-color: #26a530;
     border-color: #4CAE4C;
     color: #FFFFFF;
 }
@@ -111,14 +111,14 @@ body {
     -moz-user-select: none;
     background-image: none;
     border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 5px 5px 5px 5px;
     cursor: pointer;
     display: inline-block;
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 12px;
+    font-weight: bold;
     line-height: 1.42857;
     margin-bottom: 0;
-    padding: 6px 12px;
+    padding: 8px 20px 8px 20px;
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
