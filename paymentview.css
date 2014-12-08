@@ -96,22 +96,17 @@ body {
     border-color: #3E8F3E;
     margin: 0 0 0 10px!important;
     width: 97%;
-}
-.epay_payment_button_light {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-}
-.epay_payment_button_light {
     border-radius: 6px 6px 6px 6px;
     font-size: 18px;
     line-height: 1.33;
     padding: 10px 16px;
-}
-.epay_payment_button_light {
     background-color: #5CB85C;
     border-color: #4CAE4C;
     color: #FFFFFF;
 }
+
 .epay_payment_button_light, .epay_error_button {
     -moz-user-select: none;
     background-image: none;
