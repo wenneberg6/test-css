@@ -25,7 +25,7 @@ body {
     margin-left: 5px;
     margin-right: 10px;
     min-height: 130px;
-    margin-bottom: 55px;
+    margin-bottom: 0px;
 }
 
 #epay_paymentcollection input[type="tel"]
@@ -89,25 +89,11 @@ body {
     margin-bottom: 6px;
 }
 
-.epay_payment_button_light {
-    
-    background-image: linear-gradient(to bottom, #5CB85C 0px, #419641 100%);
-    background-repeat: repeat-x;
-    border-color: #3E8F3E;
-    margin: 0 0 0 5px!important;
-    width: 97%;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 6px 6px 6px 6px;
-    font-size: 18px;
-    line-height: 1.33;
-    padding: 10px 16px;
-    background-color: #26a530;
-    border-color: #4CAE4C;
-    color: #FFFFFF;
+.epay_payment_button_light{
+    display:none;
 }
 
-.epay_payment_button_light, .epay_error_button {
+.epay_error_button {
     -moz-user-select: none;
     background-image: none;
     border: 1px solid rgba(0, 0, 0, 0);
@@ -124,16 +110,6 @@ body {
     white-space: nowrap;
     height: auto;
     width: auto;
-}
-
-.epay_payment_button_light:hover, .epay_payment_button_light:focus, .epay_payment_button_light:active {
-    background-color: #47A447!important;
-    border-color: #398439!important;
-    color: #FFFFFF!important;
-}
-.epay_payment_button_light:active {
-    background-image: none!important;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
 }
 
 #epay_error_top, #epay_error_bottom
@@ -199,4 +175,12 @@ body {
     background-color: #E0E0E0!important;
     border-color: #DBDBDB!important;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+
+#epay_loader_top{
+    height:0;
+}
+
+#epay_loader_content{
+    margin-top:-65px;
 }
